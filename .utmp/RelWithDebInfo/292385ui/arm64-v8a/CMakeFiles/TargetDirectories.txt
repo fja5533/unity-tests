@@ -1,0 +1,8 @@
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/development/projects/Learning/.utmp/RelWithDebInfo/292385ui/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir
