@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour {
         Vector2 playerPoint = convertGPSToPosition(player.transform.position.x/100, player.transform.position.y/100);
         tile_Coords = playerPoint;
         float scaleX = Math.Abs(Math.Abs(convertPositionToGPS((int)playerPoint.x, (int)playerPoint.y).x)-Math.Abs(convertPositionToGPS((int)playerPoint.x+1, (int)playerPoint.y).x));
-        float scaleY = Math.Abs(Math.Abs(convertPositionToGPS((int)playerPoint.x, (int)playerPoint.y).y)-Math.Abs(convertPositionToGPS((int)playerPoint.x, (int)playerPoint.y+1).y));
+        float scaleY = (float)Math.Abs(Math.Abs(convertPositionToGPS((int)playerPoint.x, (int)playerPoint.y).y)-Math.Abs(convertPositionToGPS((int)playerPoint.x, (int)playerPoint.y+1).y));
         for(int row = (int)playerPoint.y; row < (int)playerPoint.y+buffer; row++) {
             for(int col = (int)playerPoint.x; col < (int)playerPoint.x+buffer; col++) {
                 if(!chunkAddresses.ContainsKey(new Vector2(col, row))) {
@@ -95,7 +95,6 @@ public class GameManager : MonoBehaviour {
                     textureLoader.scaleY = scaleY;
                     Debug.Log("scale" + scaleX);
                     m_SpriteRenderer.color = colors[UnityEngine.Random.Range(0,3)];
-                    Debug.Log("Add " + new Vector2(col,row));
                     chunkAddresses[new Vector2(col,row)] = currentTile;
                     chunks.Add(currentTile);
                 }

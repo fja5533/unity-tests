@@ -9,7 +9,8 @@ public class TestScript : MonoBehaviour
         gameObject.name = "Mr. Unlimited";
     }
 
-    public float lat = 43.1140f;
+    // public float lat = 43.1140f;
+    public float lat = 0f;
     public float lng = -77.5689f;
     public bool moved = false;
     public Vector2 lastmove;
